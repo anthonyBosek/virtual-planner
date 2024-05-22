@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+/* communities page */
+.coms-page {
+  padding: 0 2vw;
+  font-family: 'Oswald', sans-serif;
+}
+.coms-page-name,
+.com-page-name {
+  margin-bottom: 2vh;
+  padding: 5px;
+  font-size: 2.25em;
+  text-align: center;
+  color: #ced4da;
+  font-family: 'Oswald', sans-serif;
+}
+.add-com {
+  float: right;
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-right: 20px;
+  text-align: end;
+}
+.com-btn {
+  background-color: #1e90ff;
+  color: #333;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1.15em;
+  min-width: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+.com-btn:hover {
+  cursor: pointer;
+  /* background-color: #fac898; */
+  box-shadow: 0 0 4px #fac898, 0 0 10px #aaa;
+}
+#com-name-input {
+  width: 70%;
+}
+#com-desc-input {
+  width: 80%;
+}
+#com-name-input,
+#com-desc-input {
+  height: 50px;
+  padding: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /* font-size: 1.25em; */
+
+
+}
+#submit {
+  float: right;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+/* community card */
+.com-card {
+  clear: both;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ced4da;
+  border-bottom: 2px solid #1e90ff;
+  box-shadow: 2px 2px 4px #333;
+}
+.com-card:hover {
+  cursor: pointer;
+}
+.com-left {
+  width: 80%;
+}
+.com-right {
+  width: 20%;
+  padding: 5px;
+}
+.com-right div {
+  margin: 10px;
+}
+.com-name {
+  padding: 5px;
+  font-size: 2.25em;
+}
+.com-desc {
+  padding: 5px;
+  font-size: 1.25em;
+}
+.com-owner {
+  padding: 5px;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.25em;
+}
+
+/* community page */
+.com-page {
+  padding: 0 2vw;
+}
+.com-post-member {
+  display: flex;
+  justify-content: space-between;
+}
+.com-posts {
+  width: 65vw;
+}
+.com-members {
+  width: 25vw;
+  border: 1px solid #333;
+}
+
+/* post card */
+.post-card {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background-color: #ced4da;
+  border-bottom: 2px solid #1e90ff;
+  box-shadow: 2px 2px 4px #333;
+}
+.post-title {
+  padding: 5px;
+  font-size: 2.25em;
+}
+.post-content {
+  padding: 5px;
+  font-size: 1.25em;
+}
+.post-user {
+  float: right;
+  margin: 10px;
+}
+#post-title-input {
+  width: 80%;
+}
+#post-content-input {
+  width: 81%;
+}
+#post-title-input,
+#post-content-input {
+  height: 40px;
+  padding: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /* font-size: 1.25em; */
+
+}
+
+/* member card */
+.mem-card {
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #ced4da;
+  border-bottom: 2px solid #1e90ff;
+}
+.mem-avatar {
+  float: left;
+  font-size: 75px;
+  margin: 0 1vw;
+}
+.mem-username {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+/* .mem-head {} */
+/* .mem-email {} */
+/* .mem-bio {} */

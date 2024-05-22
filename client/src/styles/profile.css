@@ -1,0 +1,116 @@
+.profileGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". . header header header . ."
+        ". . profile profile profile . . ";
+}
+
+.profileHead {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    grid-area: header;
+    color: #CED4DA;
+}
+
+.profile-container {
+    grid-area: profile;
+    text-align: left;
+    justify-content: "center";
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 4px solid #6495ED;
+    background-color: #CED4DA;
+    border-radius: 4px;
+    padding: 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.profile-info p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+}
+
+.profile-button {
+    align-self: center;
+    display: flex;
+}
+
+.inputs {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+.inputs label {
+    margin-right: 15px;
+}
+
+.inputs input {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    background-color: #BFD0EE;
+    padding-left: 3px;
+}
+
+/* .edit-save-btn {
+    border-radius: 24px;
+    width: auto;
+    margin: 24px 0 24px 0;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    cursor: pointer;
+} */
+
+.edit-save-btn {
+    width: 100px;
+    max-width: 200px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px 0 10px 0;
+    transition: all 235ms ease-in-out;
+    touch-action: manipulation;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+    border-style: hidden hidden double hidden;
+    border-color: #6495ED;
+    cursor: pointer;
+}
+
+.edit-save-btn:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.edit-save-btn:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.info-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+#mem-avatar {
+    float: left;
+    font-size: 75px;
+    margin-right: 25px;
+}
